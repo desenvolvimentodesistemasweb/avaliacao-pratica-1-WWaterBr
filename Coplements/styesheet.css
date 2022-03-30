@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: #703E39;
+    color: rgb(228, 230, 235);
+
+    font-family: 'Poppins', sans-serif;
+}
+
+header
+{
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    margin-bottom: 4rem;
+    
+    background-color: #F04232;
+}
+
+section
+{
+    margin-bottom: 2rem;
+}
+
+h1
+{
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 3.4rem;
+}
+
+header > img
+{
+    height: 2.7rem;
+    width: 2.7rem;
+
+    align-self: center;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+thead
+{
+    font-size: 2.5rem;
+}
+
+h2
+{
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+a
+{
+    color: inherit;
+}
+
+p
+{
+    text-align: justify;
+    font-size: 1.8rem;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+p::first-letter
+{
+    padding-left: 1.5rem;
+}
+
+#Sumário > thead > tr > th
+{
+    border-bottom-color: rgb(24, 1, 1);
+    border-bottom-width: 2.5px;
+    border-bottom-style: solid;
+}
+
+#Sumário > tbody > tr > th
+{
+    cursor: pointer;
+}
+
+#Sumário > tbody > tr > th:hover
+{
+    background-color: rgba(109, 11, 11, 0.281);
+}
+
+#InfosGeraisTable
+{
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+#InfosGeraisTable > tbody > tr
+{
+    height: 5rem;
+}
+
+#InfosGeraisTable > tbody > tr > th
+{
+    border-bottom-color: rgb(24, 1, 1);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+
+    border-top-color: rgb(24, 1, 1);
+    border-top-width: 2px;
+    border-top-style: solid;
+
+    border-collapse: collapse;
+}
