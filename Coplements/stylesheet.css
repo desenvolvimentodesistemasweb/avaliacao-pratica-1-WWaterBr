@@ -77,6 +77,11 @@ a
     color: inherit;
 }
 
+a:hover
+{
+    text-decoration-color: greenyellow;
+}
+
 p
 {
     text-align: justify;
